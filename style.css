@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {background-color: rgba(215, 247, 243, 0.74);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 , h2 {
+    font-size: 3rem;
+}
+
+h1 > img {
+    height:110px;
+}
+header {
+    text-align: center;
+}
+h1 {
+    color: #495e57;
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgb(67, 68, 63);  
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+    margin: 2%;
+    border: 1px solid rgb(67, 68, 63);
+    border-radius: 30px;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+section > article  { 
+    background-image: url('https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+section > article h2 {
+    font-weight: 900;
+    color: azure;
+    text-shadow: 3px 2px 2px black;
+    font-size: 2,4rem;
+    margin: 10px;
+    padding: 2px 0 15px 50px;
+}
+section > article p {
+    color: whitesmoke;
+    font-weight: 200;
+    text-shadow: 0 0 2px rgb(1, 124, 42);
+    font-size: 1.2rem;
+    padding: 10px;
+}
+section > article p:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+#articles {
+   display: flex;
+    justify-content: space-around;
+    padding: 1px;
+    margin: 10px;
+}
+article {
+    flex: 1;
+}
+.menu {
+    margin: 10px;
+     justify-content: space-between;
+     height: 350px;
+     background-color: rgb(252, 235, 235);
+     border-radius: 10px;
+     padding: 25px;
+
+}
+.menu h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+#image  {
+    height: 150px;
+    width: 290px;
+    padding: 13px; 
+}
+
+#third {
+    margin: 5%; 
+}
+#third p {
+    font-size: 0.9rem;
+}
+.menu p {
+    font-size: 1rem;
+    padding-left: 15px;
+}
+.menu a {
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+#end {
+    height: 105px;
+    width: 45px;
+    position: relative;
+    float: left;
+}
+footer p {
+    float: right;
+    text-decoration-line: overline;
+    padding-top: 10px;
+    margin-top: 15px;
+    text-decoration-thickness: 2px;
+}
